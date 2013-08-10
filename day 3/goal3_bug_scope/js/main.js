@@ -88,13 +88,11 @@ console.log('------ Debugging ----------');
 
 
     //Example2:
-	//string w/ escape charaters and mixed single/double quotes
 	var phrase = 'he's in ' + ' "PWA1' ";
 	console.log("phase 4: ", phr@se);
 
 
     //Example3:
-	//nested conditional statement
 	if (a === a){    //1st IF statement
 		//execute this block of code if a is equal to a
 		
