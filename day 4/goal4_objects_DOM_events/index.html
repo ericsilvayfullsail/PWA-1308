@@ -1,0 +1,82 @@
+<!doctype html>  
+
+
+<head>
+
+	<title>Goal 4: Objects, DOM, Events</title>
+
+	<!-- CSS : implied media="all" -->
+	<link rel="stylesheet" href="css/style.css?v=2">
+
+</head>
+
+<body>
+
+	<div id="container">
+	
+		<h1>Goal 4 / Objects, DOM, Events</h1>
+		
+		<div id="nav">
+			<ul class="clearfix">
+				<li><a class="navitem" href="#1">Link 1</a></li>
+				<li><a class="navitem" href="#2">Link 2</a></li>
+				<li><a class="navitem" href="http://apple.com">Apple</a></li>
+				<li><a class="navitem" href="http://google.com">Google</a></li>
+			</ul>
+			<span class="close ui-icon ui-icon-circle-close"></span>
+		</div>
+		
+		<div id="playbox">
+			<span>Target me using the ID "playbox".</span>
+		</div>
+		
+		<div id="tagbox">
+			<span>Target these &lt;spans&gt; by tag name.</span>
+			<span>There are 3 in here.</span>
+			<span>But there are other spans on the page.</span>
+		</div>
+		
+		<div id="contentPreview">
+			<img src="" />
+		</div>
+		
+		<div id="articles">
+		
+			<div class="article">
+				<p><span class="awesome">Bacon</span> ipsum dolor sit amet turkey consectetur nulla dolor, dolore pork adipisicing irure non beef. Brisket voluptate pancetta, prosciutto short ribs sint tail spare ribs officia corned beef dolor beef fugiat. Spare ribs shank meatball officia in, et pariatur beef ribs. Strip steak bresaola drumstick in consectetur, non ad minim. <span class="readmore"> read more...</span></p>
+				<p class="more">Consequat tongue nostrud dolor chuck ut cupidatat, pancetta leberkase andouille. Ex sausage jerky ham. Ham hock tenderloin shankle, consectetur sunt jowl officia adipisicing sint shoulder ball tip. Aute duis beef ribs, deserunt sunt dolor sausage. Dolore ullamco eiusmod shank voluptate, ribeye dolore culpa veniam hamburger jowl adipisicing incididunt. <span class="hide"> hide...</span></p>		
+			</div>
+			
+			<div class="article">
+				<p><span class="awesome">Bacon</span> ipsum dolor sit amet turkey consectetur nulla dolor, dolore pork adipisicing irure non beef. Brisket voluptate pancetta, prosciutto short ribs sint tail spare ribs officia corned beef dolor beef fugiat. Spare ribs shank meatball officia in, et pariatur beef ribs. Strip steak bresaola drumstick in consectetur, non ad minim. <span class="readmore"> read more...</span></p>
+				<p class="more">Consequat tongue nostrud dolor chuck ut cupidatat, pancetta leberkase andouille. Ex sausage jerky ham. Ham hock tenderloin shankle, consectetur sunt jowl officia adipisicing sint shoulder ball tip. Aute duis beef ribs, deserunt sunt dolor sausage. Dolore ullamco eiusmod shank voluptate, ribeye dolore culpa veniam hamburger jowl adipisicing incididunt. <span class="hide"> hide...</span></p>		
+			</div>
+
+			<div class="article">
+				<p><span class="awesome">Bacon</span> ipsum dolor sit amet turkey consectetur nulla dolor, dolore pork adipisicing irure non beef. Brisket voluptate pancetta, prosciutto short ribs sint tail spare ribs officia corned beef dolor beef fugiat. Spare ribs shank meatball officia in, et pariatur beef ribs. Strip steak bresaola drumstick in consectetur, non ad minim. <span class="readmore"> read more...</span></p>
+				<p class="more">Consequat tongue nostrud dolor chuck ut cupidatat, pancetta leberkase andouille. Ex sausage jerky ham. Ham hock tenderloin shankle, consectetur sunt jowl officia adipisicing sint shoulder ball tip. Aute duis beef ribs, deserunt sunt dolor sausage. Dolore ullamco eiusmod shank voluptate, ribeye dolore culpa veniam hamburger jowl adipisicing incididunt. <span class="hide"> hide...</span></p>		
+			</div>
+
+			<div class="article">
+				<p><span class="awesome">Bacon</span> ipsum dolor sit amet turkey consectetur nulla dolor, dolore pork adipisicing irure non beef. Brisket voluptate pancetta, prosciutto short ribs sint tail spare ribs officia corned beef dolor beef fugiat. Spare ribs shank meatball officia in, et pariatur beef ribs. Strip steak bresaola drumstick in consectetur, non ad minim. <span class="readmore"> read more...</span></p>
+				<p class="more">Consequat tongue nostrud dolor chuck ut cupidatat, pancetta leberkase andouille. Ex sausage jerky ham. Ham hock tenderloin shankle, consectetur sunt jowl officia adipisicing sint shoulder ball tip. Aute duis beef ribs, deserunt sunt dolor sausage. Dolore ullamco eiusmod shank voluptate, ribeye dolore culpa veniam hamburger jowl adipisicing incididunt. <span class="hide"> hide...</span></p>		
+			</div>
+
+			<div class="article">
+				<p><span class="awesome">Bacon</span> ipsum dolor sit amet turkey consectetur nulla dolor, dolore pork adipisicing irure non beef. Brisket voluptate pancetta, prosciutto short ribs sint tail spare ribs officia corned beef dolor beef fugiat. Spare ribs shank meatball officia in, et pariatur beef ribs. Strip steak bresaola drumstick in consectetur, non ad minim. <span class="readmore"> read more...</span></p>
+				<p class="more">Consequat tongue nostrud dolor chuck ut cupidatat, pancetta leberkase andouille. Ex sausage jerky ham. Ham hock tenderloin shankle, consectetur sunt jowl officia adipisicing sint shoulder ball tip. Aute duis beef ribs, deserunt sunt dolor sausage. Dolore ullamco eiusmod shank voluptate, ribeye dolore culpa veniam hamburger jowl adipisicing incididunt. <span class="hide"> hide...</span></p>		
+			</div>
+
+			<div class="article">
+				<p><span class="awesome">Bacon</span> ipsum dolor sit amet turkey consectetur nulla dolor, dolore pork adipisicing irure non beef. Brisket voluptate pancetta, prosciutto short ribs sint tail spare ribs officia corned beef dolor beef fugiat. Spare ribs shank meatball officia in, et pariatur beef ribs. Strip steak bresaola drumstick in consectetur, non ad minim. <span class="readmore"> read more...</span></p>
+				<p class="more">Consequat tongue nostrud dolor chuck ut cupidatat, pancetta leberkase andouille. Ex sausage jerky ham. Ham hock tenderloin shankle, consectetur sunt jowl officia adipisicing sint shoulder ball tip. Aute duis beef ribs, deserunt sunt dolor sausage. Dolore ullamco eiusmod shank voluptate, ribeye dolore culpa veniam hamburger jowl adipisicing incididunt. <span class="hide"> hide...</span></p>		
+			</div>
+
+		</div>
+		
+	</div> <!-- /container -->
+
+	<script type="text/javascript" src="js/main.js"></script>
+  
+</body>
+</html>
