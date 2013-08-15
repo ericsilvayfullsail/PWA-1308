@@ -1,0 +1,15 @@
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+#container{padding:10px;}
+
+#playbox{background:#eee; border:#777 solid 10px; padding:20px; color:#333; margin:10px 0;}
+
+#tagbox{background:#eee; border:#f70 solid 10px; padding:20px; margin:10px 0;}
+#tagbox span{background:#f70; color:white; padding:20px; display:block;}
+
+#nav{list-style:none; margin:10px 0; padding:20px; background:#555;}
+#nav li{float:left;}
+#nav li a{display:block; padding:8px 6px; color:white; background:#f70; text-decoration:none; margin-right:10px;}
+#nav li:last-child a{margin-right:none;}
